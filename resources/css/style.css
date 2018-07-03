@@ -147,5 +147,115 @@ nav li {
   font-weight: 300;
   width: 100%;
   margin: auto;
-  padding-top: 1.5rem;
+  /* padding-top: 1rem; */
 }
+
+
+
+/* Info Content to right */
+.main.container {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+
+}
+.info-container {
+  width: 40%;
+  padding-top: 0.75rem;
+}
+.info-content {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.desktop {
+  width: 35%;
+}
+
+.desktop img {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+.info-text {
+  width: 65%;
+  padding: 0.75rem;
+  margin: auto;
+  margin-top: 0;
+}
+
+.info-text h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  width: 100%;
+  color: #363636;
+}
+
+.info-text p, a {
+  font-size: 1.25rem;
+}
+
+.info-content:hover {
+  background-color: #D3D3D3;
+}
+
+
+
+/* Course Selections */
+main {
+  width: 100%;
+  padding: 2rem 0rem;
+  background-color: #9cc4bf;
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 2rem 3.5rem;
+}
+
+main h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #363636;
+  font-size: 2.5rem;
+}
+
+ .courses {
+  max-width: 28%;
+  background-color: #fff;
+  margin: 1rem 1rem;
+ }
+
+ .courses img {
+   width: 100%;
+   margin: auto;
+ }
+
+ .courses h2 {
+   padding-top: 1rem;
+   color: #363636;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+ }
+
+ .courses h2, p {
+   padding: 0.5rem 0.5rem 0.5rem 2rem;
+ }
+
+ .courses .title {
+   text-transform: uppercase;
+   font-weight: 300;
+ }
