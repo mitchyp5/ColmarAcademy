@@ -147,7 +147,7 @@ nav li {
   font-weight: 300;
   width: 100%;
   margin: auto;
-  /* padding-top: 1rem; */
+  padding-left: 0;
 }
 
 
@@ -193,7 +193,7 @@ nav li {
   color: #363636;
 }
 
-.info-text p, a {
+.info-text p,  {
   font-size: 1.25rem;
 }
 
@@ -206,7 +206,7 @@ nav li {
 /* Course Selections */
 main {
   width: 100%;
-  padding: 2rem 0rem;
+  padding-top: 2rem;
   background-color: #9cc4bf;
 }
 
@@ -251,11 +251,123 @@ main h1 {
    font-weight: 600;
  }
 
- .courses h2, p {
+ .courses h2 {
    padding: 0.5rem 0.5rem 0.5rem 2rem;
+ }
+
+ .courses p {
+   padding: 0.5rem 0.5rem 0.5rem 2rem;
+ }
  }
 
  .courses .title {
    text-transform: uppercase;
    font-weight: 300;
  }
+
+
+ /* Thesis Left Section */
+ .thesis {
+   max-width: 100%;
+   background-color: #fff;
+   display: flex;
+ }
+
+ .thesis-header h1 {
+   text-align: center;
+   padding-top: 5rem;
+   padding-bottom: 4rem;
+   font-weight: 700;
+   font-family: "Montserrat", sans-serif;
+   color: #363636;
+   background-color: #fff;
+   font-size: 2.5rem;
+   margin-top: 0;
+   margin-bottom: 0;
+
+ }
+
+.thesis-content {
+  max-width: 60%;
+}
+
+ .thesis-left {
+   padding: 0 1.5rem 1.5rem 1.5rem;
+ }
+
+ .thesis-left h2  {
+   padding-left: 0rem;
+   font-family: "Montserrat", sans-serif;
+ }
+
+ .thesis-left p {
+   padding-left: 0rem;
+ }
+
+ /* Thesis Right Section */
+ .exhibit-container {
+   width: 40%;
+ }
+
+ .exhibit-content {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   margin: auto;
+   padding: 0rem 0rem 1rem 1rem;
+
+ }
+
+ .exhibit-content img {
+   height: 12rem;
+   width: 35%;
+   margin: auto;
+   padding-top: 1rem;
+ }
+
+ .exhibit-info {
+   width: 65%;
+   margin: auto;
+ }
+
+ .exhibit-content h2 {
+   padding-left: 2rem;
+   font-weight: 600;
+   font-family: "Montserrat", sans-serif;
+   width: 65%;
+ }
+
+ .exhibit-content p {
+   padding: 0rem 2rem;
+   text-align: left;
+   width: 65%;
+ }
+
+ .exhibit-content:hover {
+   background-color: #D3D3D3;
+ }
+
+
+
+/* Footer Section */
+footer .container {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #D3D3D3;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.copyright p {
+  padding-left: 1rem;
+  padding-top: .5rem;
+  text-align: left;
+}
+
+.nav-content li {
+  display: inline-block;
+  flex-wrap: wrap;
+}
